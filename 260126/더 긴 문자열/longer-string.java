@@ -10,7 +10,7 @@ public class Main {
             arr[i]=sc.next();
         }
 
-        if (arr[0].equals(arr[1])) {
+        if (arr[0].length()==arr[1].length()) {
             System.out.printf("same");
         } else if(arr[0].length()>arr[1].length()){
             System.out.printf("%s %d", arr[0], arr[0].length());
