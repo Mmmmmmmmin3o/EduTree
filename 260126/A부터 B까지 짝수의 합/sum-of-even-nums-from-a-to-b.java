@@ -11,7 +11,7 @@ public class Main {
             arr[i]=sc.nextInt();
         }
 
-        for(int i=arr[0]; i<arr[1]; i++){
+        for(int i=arr[0]; i<=arr[1]; i++){
             if(i%2==0){
                 answer+=i;
             }
