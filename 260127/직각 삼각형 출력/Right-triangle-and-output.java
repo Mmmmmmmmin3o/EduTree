@@ -7,12 +7,10 @@ public class Main {
 
         int N=sc.nextInt();
 
-        for(int i=0; i<N; i++){
-            for(int j=0; j<=i; j++){
+        for(int i=1; i<=N; i++){
+            int stars=2*i-1;
+            for(int j=0; j<stars; j++){
                 System.out.printf("*");
-                if(j%2!=0||j%3!=0){
-                    System.out.printf("*");
-                }
             }
             System.out.println();
         }
