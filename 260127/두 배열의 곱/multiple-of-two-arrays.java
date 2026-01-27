@@ -17,15 +17,10 @@ public class Main {
         for(int i=0; i<3; i++){
             for(int j=0; j<3; j++){
                 arr2[i][j]=sc.nextInt();
-            }
-        }
-
-        for(int i=0; i<3; i++){
-            for(int j=0; j<3; j++){
                 answer[i][j]=arr[i][j]*arr2[i][j];
                 System.out.printf("%d ", answer[i][j]);
             }
-            System.out.println();
+             System.out.println();
         }
     }
 }
