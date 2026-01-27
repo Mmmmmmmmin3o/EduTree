@@ -10,7 +10,7 @@ public class Main {
 
         int count=0;
 
-        for(int i=start; i<end; i++){
+        for(int i=start; i<end+1; i++){
             int div_count=0;
             for(int d=1; d<i+1; d++){
                 if(i%d==0) div_count++;
