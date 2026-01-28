@@ -8,13 +8,10 @@ public class Main {
         int n=sc.nextInt();
         int[][] answer=new int[n][n];
 
-        int temp;
-
         for(int i=0; i<n; i++){
-            temp=n;
             for(int j=0; j<n; j++){
                 if(i%2!=0){
-                    answer[j][i]=temp--;
+                    answer[j][i]=n-j;
                 }
                 else{
                     answer[j][i]=j+1;
