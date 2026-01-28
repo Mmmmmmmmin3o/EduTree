@@ -5,7 +5,7 @@ public class Main {
         // Please write your code here.
         Scanner sc=new Scanner(System.in);
 
-        float N=sc.nextInt();
+        double N=sc.nextInt();
 
         System.out.printf("%.2f",N);
     }
