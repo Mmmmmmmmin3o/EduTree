@@ -9,7 +9,7 @@ public class Main {
 
         a=c;
         c=b;
-        b=a;
+        b=temp;
 
         System.out.printf("%d\n%d\n%d",a,b,c);
     }
