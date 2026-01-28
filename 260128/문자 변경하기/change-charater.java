@@ -4,6 +4,6 @@ public class Main {
         char a='C';
         a='T';
 
-        System.out.println(a)
+        System.out.println(a);
     }
 }
