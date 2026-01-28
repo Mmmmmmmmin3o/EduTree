@@ -4,7 +4,7 @@ public class Main {
         int a=5;
         int b=3;
 
-        b=a;
+        a=b;
 
         System.out.printf("%d\n%d",a,b);
     }
