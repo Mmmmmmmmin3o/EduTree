@@ -5,8 +5,8 @@ public class Main {
         // Please write your code here.
         Scanner sc=new Scanner(System.in);
 
-        double a=sc.nextInt();
-        double b=sc.nextInt();
+        double a=sc.nextDouble();
+        double b=sc.nextDouble();
 
         System.out.printf("%.2f",a+b);
     }
