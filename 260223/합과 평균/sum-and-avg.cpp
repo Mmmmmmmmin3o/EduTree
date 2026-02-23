@@ -8,7 +8,7 @@ int main() {
     cin>>a>>b;
 
     int add =a+b;
-    float avg=add/2;
+    double avg=float(add)/2;
 
     printf("%d %.1f",add,avg);
     return 0;
