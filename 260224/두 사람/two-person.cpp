@@ -8,9 +8,8 @@ int main() {
 
     cin>>age1>>sex1>>age2>>sex2;
 
-    if(age1>=19 || age2>=19){
-        if(sex1=='M' || sex2=='M') cout<<1;
-        else cout<<0;
+    if((sex1=='M' and age1>=19) || (age2>=19 and sex2=='M')){
+        cout<<1;
     }
     else cout<<0;
     return 0;
