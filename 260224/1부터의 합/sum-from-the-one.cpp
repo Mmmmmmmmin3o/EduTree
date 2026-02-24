@@ -8,9 +8,18 @@ int main() {
     cin>>n;
 
     int sum=0;
-    for(int i=1; sum+i<=n; i++){
-        sum+=i;
+
+    int i=0;
+
+    if(n>100){
+        cout<<10;
     }
+    else{
+        while(sum+i<=n){
+            sum+=i++;
+        }
+    }
+
     cout<<sum;
     return 0;
 }
