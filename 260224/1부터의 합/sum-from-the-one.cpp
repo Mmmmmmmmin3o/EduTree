@@ -11,7 +11,6 @@ int main() {
     for(int i=1; i<101; i++){
         if(sum+i<n){
             sum+=i;
-            break;
         }
     }
     cout<<sum;
