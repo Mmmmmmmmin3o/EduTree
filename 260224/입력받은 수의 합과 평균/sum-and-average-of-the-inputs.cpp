@@ -14,6 +14,6 @@ int main() {
         sum+=temp;
     }
 
-    cout<<sum<<" "<<float(sum)/n;
+    printf("%d %.1f",sum,float(sum)/n);
     return 0;
 }
