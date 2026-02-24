@@ -7,6 +7,6 @@ int main() {
 
     cin>>gender>>age;
 
-    gender==0?(age<20?cout<<"BOY":cout<<"MAN"):(age<20?cout<<"GIRL":cout<<"WOMAN");
+    gender==0?(age<19?cout<<"BOY":cout<<"MAN"):(age<19?cout<<"GIRL":cout<<"WOMAN");
     return 0;
 }
