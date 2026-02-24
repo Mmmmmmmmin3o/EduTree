@@ -15,6 +15,6 @@ int main() {
     }
     a==min?cout<<1:cout<<0;
     cout<<" ";
-    a==b==c?cout<<1:cout<<0;
+    (a==b)and(b==c)?cout<<1:cout<<0;
     return 0;
 }
