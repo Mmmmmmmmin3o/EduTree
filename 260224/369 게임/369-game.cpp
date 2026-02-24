@@ -8,8 +8,25 @@ int main() {
     cin>>n;
 
     for(int i=1; i<=n; i++){
-        i%3==0||i%10==3||i%10==6||i%10==9? cout<<0:cout<<i;
-        cout<<" ";
+        int count=true;
+        int temp=i;
+        if(i%3==0){
+            count=false;
+        }
+        while(temp>0){
+            int digit=temp%10;
+            if(digit==3||digit==6||digit==9){
+                count=false;
+                break;
+            }
+            temp/=10;
+        }
+
+        if(count==false){
+            cout<<count<<" ";
+        }
+        else cout<<i<<" ";
+        
     }
     return 0;
 }
