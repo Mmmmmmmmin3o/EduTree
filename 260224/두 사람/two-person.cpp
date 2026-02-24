@@ -10,6 +10,8 @@ int main() {
 
     if(age1>=19 || age2>=19){
         if(sex1=='M' || sex2=='M') cout<<1;
+        else cout<<0;
     }
+    else cout<<0;
     return 0;
 }
