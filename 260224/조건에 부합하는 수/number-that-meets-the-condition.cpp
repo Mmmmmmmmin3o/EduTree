@@ -2,15 +2,13 @@
 using namespace std;
 
 int main() {
-    // Please write your code here.
     int a;
-    cin>>a;
+    cin >> a;
 
-    for(int i=1; i<a+1; i++){
-        if((i%2==0&&i%4!=0)&&(i/8)%2==0&&i%7<4){
-            continue;
+    for (int i = 1; i <= a; i++) {
+        if (!((i % 2 == 0 && i % 4 != 0) || ((i / 8) % 2 == 0) || (i % 7 < 4))) {
+            cout << i << " ";
         }
-        cout<<i<<" ";
     }
     return 0;
 }
