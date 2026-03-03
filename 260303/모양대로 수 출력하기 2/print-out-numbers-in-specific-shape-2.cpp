@@ -16,7 +16,7 @@ int main() {
             cout<<temp<<" ";
             temp+=2;
         }
-        cnt+=2;
+        cnt>8?cnt=2:cnt+=2;
         cout<<endl;
     }
     return 0;
