@@ -15,9 +15,9 @@ int main() {
         if(i%2==0){
             sum_2+=arr[i];
         }
-        else if(i%3==0){
+        if(i%3==0){
             sum_3+=arr[i];
-            avg++;
+            avg++; 
         }
     }
 
