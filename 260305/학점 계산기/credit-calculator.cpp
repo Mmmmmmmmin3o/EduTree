@@ -19,6 +19,6 @@ int main() {
 
     printf("%.1f\n",avg);
 
-    avg>3.9?cout<<"Perfect":(avg>2.9?cout<<"Good":cout<<"poor");
+    avg>3.9?cout<<"Perfect":(avg>2.9?cout<<"Good":cout<<"Poor");
     return 0;
 }
