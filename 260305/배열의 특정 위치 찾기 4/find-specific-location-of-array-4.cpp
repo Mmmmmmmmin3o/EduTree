@@ -9,8 +9,7 @@ int main() {
     int a[10];
     for(int i=0; i<10; i++){
         cin>>a[i];
-        if(a[i]==0)break;
-        else if(a[i]%2==0){
+        if(a[i]%2==0&&a[i]!=0){
             cnt++;
             sum+=a[i];
         }
